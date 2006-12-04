@@ -53,7 +53,7 @@ Num File Groups=3
 
 Source Dir=../built/library
 
-Target Dir=<OpenG.lib>/string
+Target Dir=<OpenG.lib>/time
 
 Replace Mode=Always
 
