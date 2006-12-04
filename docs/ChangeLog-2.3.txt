@@ -1,2 +1,4 @@
-2004-12-03
+2006-12-03
+[MOD] Changed from LGPL to BSD license.
 [FIX] Made "time (ms)" input of "Periodic Trigger.vi" required
+[NEW] 100% unit test coverage during library build
