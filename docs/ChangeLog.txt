@@ -1,0 +1,7 @@
+-= oglib_time-2.1-1.ogp =-
+
+
+Changes from 2.0-1 --> 2.1-1
+--------------------------------
+2004-11-15
+[FIX] Package now overwrites existing files in target location

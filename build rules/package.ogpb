@@ -1,0 +1,88 @@
+[Package Name]
+
+Name=oglib_time
+
+Version=2.3
+
+Release=1
+
+
+[Description]
+
+Description="The time package contains several routines related to software timing."
+
+Summary="OpenG Time Tools"
+
+License=BSD
+
+Copyright="2002 Jean-Pierre Drolet, 2002-2006 Jim Kring"
+
+Distribution="OpenG Toolkit"
+
+Icon=../source/time.bmp
+
+Vendor=OpenG.org
+
+URL=http://openg.org/time
+
+Packager="Jim Kring <jim@jimkring.com>"
+
+
+[Dependencies]
+
+Requires="ogrsc_dynamicpalette>=2.0"
+
+AutoReqProv=FALSE
+
+
+[Platform]
+
+Exclusive_LabVIEW_Version=>=6.1
+
+Exclusive_LabVIEW_System=All
+
+Exclusive_OS=All
+
+
+[Files]
+
+Num File Groups=3
+
+
+[File Group 0]
+
+Source Dir=../built/library
+
+Target Dir=<OpenG.lib>/string
+
+Replace Mode=Always
+
+Num Files=1
+
+File 0="time.llb/*"
+
+
+[File Group 1]
+
+Source Dir="../source"
+
+Target Dir="<user.lib>/_dynamicpalette_dirs/time"
+
+Replace Mode=Always
+
+Num Files=1
+
+File 0=oglib_time.mnu
+
+
+[File Group 2]
+
+Source Dir="../source"
+
+Target Dir="<user.lib>/_dynamicpalette_dirs/OpenG"
+
+Replace Mode=Always
+
+Num Files=1
+
+File 0=oglib_time.mnu

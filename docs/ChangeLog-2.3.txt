@@ -1,0 +1,2 @@
+2004-12-03
+[FIX] Made "time (ms)" input of "Periodic Trigger.vi" required
