@@ -30,7 +30,7 @@ Packager="Jim Kring <jim@jimkring.com>"
 
 [Dependencies]
 
-Requires="ogrsc_dynamicpalette>=2.0"
+Requires="ogrsc_dynamicpalette>=0.2"
 
 AutoReqProv=FALSE
 
