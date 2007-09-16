@@ -23,7 +23,7 @@ Icon=../source/time.bmp
 
 Vendor=OpenG.org
 
-URL=http://openg.org/time
+URL=http://wiki.openg.org/oglib_time
 
 Packager="Jim Kring <jim@jimkring.com>"
 
