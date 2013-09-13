@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-12-15 17:27:07" Modified_Date="2011-05-18 01:04:50" Creator="Jonathon Green" Comments="" ID="e852bc9fb87d8ba5244dfb57b685e3ba">
+<VI_Package_Builder_Settings Version="0.5" Created_Date="2010-12-15 17:27:07" Modified_Date="2013-09-12 18:18:19" Creator="Jonathon Green" Comments="" ID="1add47e2503acaa0727e9289650ab932">
   <Library_General_Settings>
     <Package_File_Name>oglib_time</Package_File_Name>
-    <Library_Version>4.0.0.3</Library_Version>
+    <Library_Version>4.0.1.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -31,8 +31,8 @@
       <Copyright>Copyright (c) 2002 Jean-Pierre Drolet; 2002-2006 Jim Kring; 2010-2011 Jonathon Green</Copyright>
       <Packager>OpenG.org</Packager>
       <URL>http://wiki.openg.org/Oglib_time</URL>
-      <Release_Notes>Package sources upgraded to LabVIEW 2009 (package now compatible with LV2009 or greater)
-Package build with VIPM 2010</Release_Notes>
+      <Release_Notes>Package build with VIPM 2013
+[FIX] 127 - Time Library Fix for QuickDrop and Shortcut Palettes: Add (OpenG) Suffix to OpenG VIs that conflict with built-ins</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -78,6 +78,16 @@ Package build with VIPM 2010</Release_Notes>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path/>
       </Help_Menu>
+      <Project_Templates>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>false</Preserve_Hierarchy>
+        <Path/>
+      </Project_Templates>
+      <Project_Provider>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>false</Preserve_Hierarchy>
+        <Path/>
+      </Project_Provider>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
@@ -101,6 +111,7 @@ Package build with VIPM 2010</Release_Notes>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
+        <Locked_Only>false</Locked_Only>
       </Password_Overrides>
       <Namespace_Overrides>
         <Path>.</Path>
@@ -149,6 +160,7 @@ Package build with VIPM 2010</Release_Notes>
         <Palette_Disk_Base_Path>&lt;menus&gt;\Categories</Palette_Disk_Base_Path>
         <Syncing_MNU_file/>
       </Functions_Palette_Information>
+      <Apply_Short_Names_to_VI_Titles>false</Apply_Short_Names_to_VI_Titles>
     </Palette_Sets>
     <Install_Requirements>
       <All_Windows>true</All_Windows>
@@ -160,6 +172,10 @@ Package build with VIPM 2010</Release_Notes>
       <Built_LV_Version>false</Built_LV_Version>
       <Built_LV_Version_or_greater>true</Built_LV_Version_or_greater>
     </Install_Requirements>
+    <LabVIEW>
+      <Shutdown_LabVIEW_Before_Package_Install>false</Shutdown_LabVIEW_Before_Package_Install>
+      <Start_LabVIEW_After_Package_Install>false</Start_LabVIEW_After_Package_Install>
+    </LabVIEW>
   </Advanced_Settings>
   <Library_Palette_Definition>
     <Functions_Palette_Data>
@@ -184,7 +200,7 @@ Package build with VIPM 2010</Release_Notes>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Tick Count (ms).vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Tick Count (ms)</NameSub_Menu_Name>
         <Short_Name>Tick Count (ms)</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -193,11 +209,12 @@ Package build with VIPM 2010</Release_Notes>
         </Position>
         <Icon>00000000</Icon>
         <Path>library\Tick Count (ms).vi</Path>
+        <VI_Title>Tick Count (ms) (OpenG)</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Wait (ms).vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Wait (ms)</NameSub_Menu_Name>
         <Short_Name>Wait (ms)</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -206,11 +223,12 @@ Package build with VIPM 2010</Release_Notes>
         </Position>
         <Icon>00000000</Icon>
         <Path>library\Wait (ms).vi</Path>
+        <VI_Title>Wait (ms) (OpenG)</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Wait Until Next ms Multiple.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Wait Until Next ms Multiple</NameSub_Menu_Name>
         <Short_Name>Wait Until Next ms Multiple</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -219,11 +237,12 @@ Package build with VIPM 2010</Release_Notes>
         </Position>
         <Icon>00000000</Icon>
         <Path>library\Wait Until Next ms Multiple.vi</Path>
+        <VI_Title>Wait Until Next ms Multiple (OpenG)</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Periodic Trigger.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Periodic Trigger</NameSub_Menu_Name>
         <Short_Name>Periodic Trigger</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -232,7 +251,9 @@ Package build with VIPM 2010</Release_Notes>
         </Position>
         <Icon>00000000</Icon>
         <Path>library\Periodic Trigger.vi</Path>
+        <VI_Title>Periodic Trigger</VI_Title>
       </Items_Data>
+      <GUID>50C7C3E1A647FF7C3E6094FB2B01E87C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
