@@ -1,2 +1,2 @@
 # OpenG Time Library
-The JKI-supported branch of the OpenG Time Library (a.k.a. oglib_time)
+[Install the OpenG Time Library with VIPM](https://www.vipm.io/package/oglib_time/)
