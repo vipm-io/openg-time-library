@@ -1,14 +1,14 @@
-# OpenG Time Library
+# OpenG Time Library ![image](source/images/icon.png)
 
 [![Image](https://www.vipm.io/package/oglib_time/badge.svg?metric=installs)](https://www.vipm.io/package/oglib_time/) [![Image](https://www.vipm.io/package/oglib_time/badge.svg?metric=stars)](https://www.vipm.io/package/oglib_time/)
 [![ci-checks](https://github.com/vipm-io/OpenG-Time-Library/actions/workflows/ci.yml/badge.svg)](https://github.com/vipm-io/OpenG-Time-Library/actions/workflows/ci.yml)
 [![All Contributors](https://img.shields.io/github/all-contributors/vipm-io/OpenG-Time-Library?color=ee8449&style=flat-square)](#contributors)
 
-![image](https://github.com/vipm-io/OpenG-Time-Library/source/images/functions_palette.png)
+![image](source/images/icon.png)
 
 The OpenG Time Library package contains several routines related to software timing.
 
-![image](https://github.com/vipm-io/OpenG-Time-Library/source/images/icon.png)
+![image](source/images/functions_palette.png)
 
 ## Installation
 
