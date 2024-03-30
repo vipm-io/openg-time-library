@@ -1,4 +1,24 @@
 {
-    "projectName": "OpenG-Time-Library",
-    "projectOwner": "vipm-io"
+  "projectName": "OpenG-Time-Library",
+  "projectOwner": "vipm-io",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "jimkring",
+      "name": "Jim Kring",
+      "avatar_url": "https://avatars.githubusercontent.com/u/381432?v=4",
+      "profile": "https://github.com/jimkring",
+      "contributions": [
+        "doc",
+        "maintenance",
+        "test",
+        "code"
+      ]
+    }
+  ]
 }
