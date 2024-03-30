@@ -1,6 +1,6 @@
 OpenG Time Library
 
-Copyright (c) 2002 Jean-Pierre Drolet; 2002-2006 Jim Kring; 2010-2011 Jonathon Green
+Copyright (c) 2002-2024 Project Contributors (See CONTRIBUTORS.md)
 
 All rights reserved.
 
