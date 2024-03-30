@@ -7,3 +7,9 @@
 
 # Dragon Meta Folder
 .dragon/
+
+# Temp Build Folder
+.source/
+
+# Built Package
+*.vip
