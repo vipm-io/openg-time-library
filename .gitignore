@@ -3,6 +3,7 @@
 
 # LabVIEW Local Settings
 *.aliases
+*.lvlps
 
 # Dragon Meta Folder
 .dragon/
