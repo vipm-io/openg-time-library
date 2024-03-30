@@ -31,11 +31,8 @@
 				<Item Name="functions_palette.png" Type="Document" URL="../source/images/functions_palette.png"/>
 			</Item>
 			<Item Name="library" Type="Folder">
-				<Item Name="Periodic Trigger.vi" Type="VI" URL="../source/library/Periodic Trigger.vi"/>
-				<Item Name="Tick Count (ms).vi" Type="VI" URL="../source/library/Tick Count (ms).vi"/>
 				<Item Name="VI Tree - time.vi" Type="VI" URL="../source/library/VI Tree - time.vi"/>
-				<Item Name="Wait (ms).vi" Type="VI" URL="../source/library/Wait (ms).vi"/>
-				<Item Name="Wait Until Next ms Multiple.vi" Type="VI" URL="../source/library/Wait Until Next ms Multiple.vi"/>
+				<Item Name="openg_time.lvlib" Type="Library" URL="../source/library/openg_time.lvlib"/>
 			</Item>
 			<Item Name="user docs" Type="Folder">
 				<Item Name="License Agreement.txt" Type="Document" URL="../source/user docs/License Agreement.txt"/>
