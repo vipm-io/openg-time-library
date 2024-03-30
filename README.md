@@ -27,6 +27,7 @@ Take a look at the [Help Wanted](https://github.com/vipm-io/OpenG-Time-Library/i
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/jimkring"><img src="https://avatars.githubusercontent.com/u/381432?v=4?s=100" width="100px;" alt="Jim Kring"/><br /><sub><b>Jim Kring</b></sub></a><br /><a href="#doc-jimkring" title="Documentation">📖</a> <a href="#maintenance-jimkring" title="Maintenance">🚧</a> <a href="#test-jimkring" title="Tests">⚠️</a> <a href="#code-jimkring" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://www.jgcode.net"><img src="https://avatars.githubusercontent.com/u/16163577?v=4?s=100" width="100px;" alt="Jonathon Green"/><br /><sub><b>Jonathon Green</b></sub></a><br /><a href="#code-jg-code" title="Code">💻</a> <a href="#test-jg-code" title="Tests">⚠️</a> <a href="#maintenance-jg-code" title="Maintenance">🚧</a></td>
     </tr>
   </tbody>
 </table>
