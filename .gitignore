@@ -13,3 +13,5 @@
 
 # Built Package
 *.vip
+coverage.json
+report.xml
