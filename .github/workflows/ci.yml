@@ -14,4 +14,4 @@ jobs:
     uses: vipm-io/OpenG-Tookit/.github/workflows/ci-checks.yml@main
     secrets: inherit
     with:
-      ci-container: "ghcr.io/vipm-io/openg-toolkit:main"
+      ci-container: "ghcr.io/vipm-io/actions-runner-labview:main"
