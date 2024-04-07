@@ -8,3 +8,6 @@ vipc = 'source\.vipc'
 
 [vipm.dependencies]
 oglib_error = "6.0.0.26"
+lvos_lib_caraya_cli_extension = "2.0.0.7"
+jki_lib_caraya = "1.4.3.147"
+wiresmith_technology_lib_g_cli = "3.0.1.98"
