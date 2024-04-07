@@ -2,6 +2,7 @@
 
 [![Image](https://www.vipm.io/package/oglib_time/badge.svg?metric=installs)](https://www.vipm.io/package/oglib_time/) [![Image](https://www.vipm.io/package/oglib_time/badge.svg?metric=stars)](https://www.vipm.io/package/oglib_time/)
 [![ci-checks](https://github.com/vipm-io/OpenG-Time-Library/actions/workflows/ci.yml/badge.svg)](https://github.com/vipm-io/OpenG-Time-Library/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/vipm-io/OpenG-Time-Library/graph/badge.svg?token=PBANZZSEO4)](https://codecov.io/gh/vipm-io/OpenG-Time-Library)
 [![All Contributors](https://img.shields.io/github/all-contributors/vipm-io/OpenG-Time-Library?color=ee8449&style=flat-square)](#contributors)
 
 ![image](source/images/icon.png)

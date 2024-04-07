@@ -13,5 +13,7 @@
 
 # Built Package
 *.vip
-coverage.json
+
+# Test Reports
 report.xml
+codecov.json
