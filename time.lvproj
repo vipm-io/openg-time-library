@@ -17,6 +17,7 @@
 			<Item Name="List VIs without Test Coverage.vi" Type="VI" URL="../build support/List VIs without Test Coverage.vi"/>
 			<Item Name="Pre-Build VI - Run Unit Tests.vi" Type="VI" URL="../build support/Pre-Build VI - Run Unit Tests.vi"/>
 			<Item Name="Get Todo Bookmarks.vi" Type="VI" URL="../build support/Get Todo Bookmarks.vi"/>
+			<Item Name="coverage.vi" Type="VI" URL="../build support/coverage.vi"/>
 		</Item>
 		<Item Name="candidates" Type="Folder">
 			<Item Name="Compute New Timeout - EXAMPLE 01.vi" Type="VI" URL="../candidates/Compute New Timeout - EXAMPLE 01.vi"/>
